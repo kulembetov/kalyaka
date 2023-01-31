@@ -1,0 +1,21 @@
+.header__content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding-left: 160px;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__content {
+    gap: 50px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 748px) and (max-width: 1440px) {
+  .header__content {
+    gap: 50px;
+    padding: 30px 50px;
+  }
+}

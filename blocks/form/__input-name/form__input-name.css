@@ -1,0 +1,19 @@
+.form__input-name {
+  max-width: 470px;
+  min-height: 54px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  padding: 15px 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .form__input-name {
+    font-size: 12px;
+    line-height: 2;
+  }
+}

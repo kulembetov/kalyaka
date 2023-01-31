@@ -1,0 +1,24 @@
+.intro__image {
+  display: block;
+  max-width: 350px;
+  max-height: 709px;
+  object-fit: cover;
+  filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.25));
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__image {
+    max-width: 260px;
+    min-height: 522px;
+    filter: none;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .intro__image {
+    max-width: 226px;
+    min-height: 461px;
+  }
+}

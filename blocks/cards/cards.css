@@ -1,0 +1,27 @@
+.cards {
+  padding-top: 60px;
+}
+
+.cards:nth-of-type(3) {
+  padding-top: 120px;
+}
+
+@media screen and (max-width: 767px) {
+  .cards {
+    max-width: 300px;
+    padding-top: 70px;
+    margin: 0 auto;
+  }
+  .cards:nth-of-type(3) {
+    padding-top: 90px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1440px) {
+  .cards {
+    padding: 70px 20px 0;
+  }
+  .cards:nth-of-type(3) {
+    padding-top: 70px;
+  }
+}

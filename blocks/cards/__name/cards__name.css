@@ -1,0 +1,15 @@
+.cards__name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.11;
+  color: #111;
+  opacity: .6;
+  margin: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .cards__name {
+    font-size: 15px;
+    line-height: 1.33;
+  }
+}

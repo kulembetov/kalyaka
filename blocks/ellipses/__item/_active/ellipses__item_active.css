@@ -1,0 +1,4 @@
+.ellipses__item_active {
+  background-image: url(../../../../images/ellipse_active.svg);
+  transition: .3s ease-in-out;
+}

@@ -1,0 +1,18 @@
+.form__input-email {
+  max-width: 470px;
+  min-height: 54px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  padding: 15px 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .form__input-email {
+    font-size: 12px;
+  }
+}

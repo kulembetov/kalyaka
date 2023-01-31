@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="icon" href="./images/logo.svg">
+  <title>Kalyaka</title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <div class="header__content">
+      <img class="header__logo" src="./images/header_logo.svg" alt="Логотип Каляка">
+      <div class="header__text">
+        <h1 class="header__title">Не умеете рисовать? Не беда!</h1>
+        <h2 class="header__description">С помощью нашего приложения вы можете чиркануть каляку и получить шедевр.</h2>
+      </div>
+      <img class="header__image" src="./images/header_phone.png" alt="Смартфон в заголовке страницы">
+      <div class="header__links">
+        <a class="header__link" href="#">Подробнее</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="cards">
+      <div class="cards__buttons">
+        <input class="cards__button ellipses__item" type="radio" name="switch" id="switch1">
+        <input class="cards__button ellipses__item" type="radio" name="switch" id="switch2">
+        <div class="ellipses">
+          <label class="ellipses__label" for="switch1"></label>
+          <label class="ellipses__label" for="switch2"></label>
+        </div>
+        <ul class="cards__list">
+          <li class="cards__item">
+            <h4 class="cards__name">Ai</h4>
+            <div class="cards__text">
+              <h2 class="cards__title">Умный интелект приложения</h2>
+              <p class="cards__description">С помощью AI приложение анализирует картины мастеров и современных практиков
+                рисования,
+                и достраивает картину за вас.</p>
+            </div>
+          </li>
+          <li class="cards__item">
+            <h4 class="cards__name">Ч/Б и Цвет</h4>
+            <div class="cards__text">
+              <h2 class="cards__title">Рисуйте в любом стиле</h2>
+              <p class="cards__description">Будь то карандашная каляка-маляка или цветное произведение, приложение
+                поможет в любой ситуации.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="intro">
+      <h2 class="intro__title">Чик-чирик и ваша каляка превращается в изумительное произведение искусства.</h2>
+      <div class="cards__buttons">
+        <input class="cards__button ellipses__item" type="radio" name="switch" id="switch3" checked>
+        <input class="cards__button ellipses__item" type="radio" name="switch" id="switch4">
+        <input class="cards__button ellipses__item" type="radio" name="switch" id="switch5">
+        <div class="ellipses">
+          <label class="ellipses__label" for="switch3"></label>
+          <label class="ellipses__label" for="switch4"></label>
+          <label class="ellipses__label" for="switch5"></label>
+        </div>
+        <ul class="intro__list">
+          <li class="intro__item">
+            <img class="intro__image" src="./images/intro_phone-1.png" alt="Смартфон №1">
+          </li>
+          <li class="intro__item">
+            <img class="intro__image" src="./images/intro_phone-2.png" alt="Смартфон №2">
+          </li>
+          <li class="intro__item">
+            <img class="intro__image" src="./images/intro_phone-3.png" alt="Смартфон №2">
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="cards__buttons">
+        <input class="cards__button ellipses__item" type="radio" name="switch" id="switch6" checked>
+        <input class="cards__button ellipses__item" type="radio" name="switch" id="switch7">
+        <div class="ellipses">
+          <label class="ellipses__label" for="switch6"></label>
+          <label class="ellipses__label" for="switch7"></label>
+        </div>
+        <ul class="cards__list">
+          <li class="cards__item">
+            <h4 class="cards__name">Быстро</h4>
+            <div class="cards__text">
+              <h2 class="cards__title">Проблем с рисованием — нет</h2>
+              <p class="cards__description">Рисуйте в приложении доступными кистями: карандаш, маркер, линер, масляная
+                кисть и многие другие...</p>
+            </div>
+          </li>
+          <li class="cards__item">
+            <h4 class="cards__name">Просто</h4>
+            <div class="cards__text">
+              <h2 class="cards__title">Нарисовали, преобразовали, сохранили</h2>
+              <p class="cards__description">Раз, два, три, больше нечего тут рассказать.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="form">
+      <h2 class="form__title">Качайте приложение и улучшайте свои художества, а потом хвастайтесь ими!</h2>
+      <form class="form__content" id="form" name="form" method="post">
+        <div class="form__text">
+          <h3 class="form__name">Хотите нам что-то посоветовать?</h3>
+          <h4 class="form__description">Оставьте заявку и мы свяжемся с вами.</h4>
+        </div>
+        <div class="form__inputs">
+          <input class="form__input-name" type="text" name="name" placeholder="Ваше имя" required>
+          <input class="form__input-email" type="email" name="email" placeholder="Контактный Email" required>
+          <input class="form__input-message" type="text" name="message" placeholder="Сообщение" required>
+        </div>
+        <div class="form__links">
+          <button class="form__link" type="submit">Оставить заявку</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="footer__text">
+        <h2 class="footer__title">Хотите скачать приложение?</h2>
+        <p class="footer__description">Качайте в ЭпСтор и ГуглПлэй.</p>
+      </div>
+      <div class="footer__links">
+        <button class="footer__link" disabled>Уже скоро!</button>
+      </div>
+      <img class="footer__image" src="./images/footer_phone.png" alt="Смартфон в подвале страницы">
+    </div>
+  </footer>
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>
