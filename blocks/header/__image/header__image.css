@@ -10,13 +10,13 @@
 @media screen and (max-width: 767px) {
   .header__image {
     max-width: 260px;
+    max-height: 522px;
     position: initial;
     transform: none;
-    margin: 0 auto;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
   .header__image {
     max-width: 250px;
     top: 120px;

@@ -1,8 +1,7 @@
-
 .cards__buttons {
   position: relative;
 }
 
-.cards__buttons input[name="switch"] {
+.cards__buttons .cards__input {
   display: none;
 }

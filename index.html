@@ -19,22 +19,22 @@
       </div>
       <img class="header__image" src="./images/header_phone.png" alt="Смартфон в заголовке страницы">
       <div class="header__links">
-        <a class="header__link" href="#">Подробнее</a>
+        <button class="header__link" href="#">Подробнее</button>
       </div>
     </div>
   </header>
   <main>
     <section class="cards">
       <div class="cards__buttons">
-        <input class="cards__button ellipses__item" type="radio" name="switch" id="switch1">
-        <input class="cards__button ellipses__item" type="radio" name="switch" id="switch2">
-        <div class="ellipses">
-          <label class="ellipses__label" for="switch1"></label>
-          <label class="ellipses__label" for="switch2"></label>
+        <input class="cards__button cards__input cards__ellipse" type="radio" name="switch" id="switch1" checked>
+        <input class="cards__button cards__input cards__ellipse" type="radio" name="switch" id="switch2">
+        <div class="buttons">
+          <label class="buttons__label" for="switch1"></label>
+          <label class="buttons__label" for="switch2"></label>
         </div>
         <ul class="cards__list">
           <li class="cards__item">
-            <h4 class="cards__name">Ai</h4>
+            <h3 class="cards__name">Ai</h3>
             <div class="cards__text">
               <h2 class="cards__title">Умный интелект приложения</h2>
               <p class="cards__description">С помощью AI приложение анализирует картины мастеров и современных практиков
@@ -43,7 +43,7 @@
             </div>
           </li>
           <li class="cards__item">
-            <h4 class="cards__name">Ч/Б и Цвет</h4>
+            <h3 class="cards__name">Ч/Б и Цвет</h3>
             <div class="cards__text">
               <h2 class="cards__title">Рисуйте в любом стиле</h2>
               <p class="cards__description">Будь то карандашная каляка-маляка или цветное произведение, приложение
@@ -55,14 +55,14 @@
     </section>
     <section class="intro">
       <h2 class="intro__title">Чик-чирик и ваша каляка превращается в изумительное произведение искусства.</h2>
-      <div class="cards__buttons">
-        <input class="cards__button ellipses__item" type="radio" name="switch" id="switch3" checked>
-        <input class="cards__button ellipses__item" type="radio" name="switch" id="switch4">
-        <input class="cards__button ellipses__item" type="radio" name="switch" id="switch5">
-        <div class="ellipses">
-          <label class="ellipses__label" for="switch3"></label>
-          <label class="ellipses__label" for="switch4"></label>
-          <label class="ellipses__label" for="switch5"></label>
+      <div class="intro__buttons">
+        <input class="intro__button intro__input intro__ellipse" type="radio" name="switch" id="switch3" checked>
+        <input class="intro__button intro__input intro__ellipse" type="radio" name="switch" id="switch4">
+        <input class="intro__button intro__input intro__ellipse" type="radio" name="switch" id="switch5">
+        <div class="buttons">
+          <label class="buttons__label" for="switch3"></label>
+          <label class="buttons__label" for="switch4"></label>
+          <label class="buttons__label" for="switch5"></label>
         </div>
         <ul class="intro__list">
           <li class="intro__item">
@@ -79,15 +79,15 @@
     </section>
     <section class="cards">
       <div class="cards__buttons">
-        <input class="cards__button ellipses__item" type="radio" name="switch" id="switch6" checked>
-        <input class="cards__button ellipses__item" type="radio" name="switch" id="switch7">
-        <div class="ellipses">
-          <label class="ellipses__label" for="switch6"></label>
-          <label class="ellipses__label" for="switch7"></label>
+        <input class="cards__button cards__input cards__ellipse" type="radio" name="switch" id="switch6" checked>
+        <input class="cards__button cards__input cards__ellipse" type="radio" name="switch" id="switch7">
+        <div class="buttons">
+          <label class="buttons__label" for="switch6"></label>
+          <label class="buttons__label" for="switch7"></label>
         </div>
         <ul class="cards__list">
           <li class="cards__item">
-            <h4 class="cards__name">Быстро</h4>
+            <h3 class="cards__name">Быстро</h3>
             <div class="cards__text">
               <h2 class="cards__title">Проблем с рисованием — нет</h2>
               <p class="cards__description">Рисуйте в приложении доступными кистями: карандаш, маркер, линер, масляная
@@ -95,7 +95,7 @@
             </div>
           </li>
           <li class="cards__item">
-            <h4 class="cards__name">Просто</h4>
+            <h3 class="cards__name">Просто</h3>
             <div class="cards__text">
               <h2 class="cards__title">Нарисовали, преобразовали, сохранили</h2>
               <p class="cards__description">Раз, два, три, больше нечего тут рассказать.</p>
@@ -109,7 +109,7 @@
       <form class="form__content" id="form" name="form" method="post">
         <div class="form__text">
           <h3 class="form__name">Хотите нам что-то посоветовать?</h3>
-          <h4 class="form__description">Оставьте заявку и мы свяжемся с вами.</h4>
+          <h3 class="form__description">Оставьте заявку и мы свяжемся с вами.</h3>
         </div>
         <div class="form__inputs">
           <input class="form__input-name" type="text" name="name" placeholder="Ваше имя" required>
@@ -131,7 +131,9 @@
       <div class="footer__links">
         <button class="footer__link" disabled>Уже скоро!</button>
       </div>
-      <img class="footer__image" src="./images/footer_phone.png" alt="Смартфон в подвале страницы">
+      <div class="footer__images">
+        <img class="footer__image" src="./images/footer_phone.png" alt="Смартфон в подвале страницы">
+      </div>
     </div>
   </footer>
   <script src="./scripts/script.js"></script>

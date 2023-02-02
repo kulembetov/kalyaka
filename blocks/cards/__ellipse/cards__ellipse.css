@@ -1,4 +1,4 @@
-.ellipses__item {
+.cards__ellipse {
   width: 4px;
   height: 4px;
   background-image: url(../../../images/ellipse.svg);
@@ -6,28 +6,28 @@
   transition: .3s ease-in-out;
 }
 
-.ellipses__item:nth-child(1n) {
+.cards__ellipse:nth-child(1n) {
   position: relative;
   top: 0;
   left: 0;
 }
 
-.ellipses__item:nth-child(2n) {
+.cards__ellipse:nth-child(2n) {
   position: relative;
   top: 0;
   left: 0;
 }
 
 @media screen and (max-width: 767px) {
-  .cards__item.ellipses__item:checked:nth-child(1) {
+  .cards__item.cards__ellipse:checked:nth-child(1) {
     transform: translateX(0);
   }
 
-  .cards__item.ellipses__item:checked:nth-child(2) {
+  .cards__item.cards__ellipse:checked:nth-child(2) {
     transform: translateX(-100%);
   }
 
-  .cards__item.ellipses__item:checked:nth-child(3) {
+  .cards__item.cards__ellipse:checked:nth-child(3) {
     transform: translateX(-200%);
   }
 }

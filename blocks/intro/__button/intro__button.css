@@ -1,0 +1,9 @@
+@media screen and (max-width: 767px) {
+  .intro__button:nth-of-type(2):checked ~ .intro__list .intro__image {
+    transform: translateX(-100%);
+  }
+
+  .intro__button:nth-of-type(3):checked ~ .intro__list .intro__image {
+    transform: translateX(-200%);
+  }
+}

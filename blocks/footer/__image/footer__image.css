@@ -1,13 +1,8 @@
 .footer__image {
   max-width: 311px;
   max-height: 630px;
-  position: absolute;
-  top: 30px;
-  right: 220px;
+  position: relative;
   object-fit: cover;
-  filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.25));
-  transform: scale(1.6);
-  clip: rect(auto, auto, 370px, auto);
 }
 
 @media screen and (max-width: 767px) {
@@ -16,12 +11,12 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
   .footer__image {
     max-width: 250px;
     max-height: 502px;
-    top: 15px;
-    right: 70px;
-    clip: rect(auto, auto, 320px, auto);
+    position: relative;
+    object-fit: cover;
+    clip: rect(auto, auto, 391px, auto);
   }
 }

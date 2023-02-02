@@ -1,9 +1,9 @@
-.ellipses {
+.buttons {
   display: none;
 }
 
 @media screen and (max-width: 767px) {
-  .ellipses {
+  .buttons {
     width: 100%;
     display: inline-block;
     position: absolute;
@@ -13,7 +13,7 @@
     cursor: pointer;
   }
 
-  .ellipses .ellipses__label {
+  .buttons .buttons__label {
     display: inline-block;
     background-image: url(../../images/ellipse.svg);
     background-repeat: no-repeat;
@@ -22,30 +22,30 @@
   }
 }
 
-#switch1:checked~.ellipses .ellipses__label[for="switch1"] {
+#switch1:checked~.buttons .buttons__label[for="switch1"] {
   background-image: url(../../images/ellipse_active.svg);
 }
 
-#switch2:checked~.ellipses .ellipses__label[for="switch2"] {
+#switch2:checked~.buttons .buttons__label[for="switch2"] {
   background-image: url(../../images/ellipse_active.svg);
 }
 
-#switch3:checked~.ellipses .ellipses__label[for="switch3"] {
+#switch3:checked~.buttons .buttons__label[for="switch3"] {
   background-image: url(../../images/ellipse_active.svg);
 }
 
-#switch4:checked~.ellipses .ellipses__label[for="switch4"] {
+#switch4:checked~.buttons .buttons__label[for="switch4"] {
   background-image: url(../../images/ellipse_active.svg);
 }
 
-#switch5:checked~.ellipses .ellipses__label[for="switch5"] {
+#switch5:checked~.buttons .buttons__label[for="switch5"] {
   background-image: url(../../images/ellipse_active.svg);
 }
 
-#switch6:checked~.ellipses .ellipses__label[for="switch6"] {
+#switch6:checked~.buttons .buttons__label[for="switch6"] {
   background-image: url(../../images/ellipse_active.svg);
 }
 
-#switch7:checked~.ellipses .ellipses__label[for="switch7"] {
+#switch7:checked~.buttons .buttons__label[for="switch7"] {
   background-image: url(../../images/ellipse_active.svg);
 }

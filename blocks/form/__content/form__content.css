@@ -1,6 +1,5 @@
 .form__content {
   max-width: 1100px;
-  max-height: 628px;
   background-color: #f8f8f8;
   border: none;
   border-radius: 10px;
@@ -12,16 +11,14 @@
 @media screen and (max-width: 767px) {
   .form__content {
     max-width: 300px;
-    min-height: 614px;
     padding: 20px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
   .form__content {
     max-width: 708px;
     min-height: 611px;
-    max-height: 611px;
     padding: 30px 120px;
   }
 }

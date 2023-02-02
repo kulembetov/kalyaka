@@ -1,0 +1,27 @@
+.footer__images {
+  height: 32rem;
+  width: 30rem;
+  overflow: hidden;
+  position: absolute;
+  top: -30px;
+  right: 50px;
+  clip: rect(auto, auto, 501px, auto);
+}
+
+@media screen and (max-width: 767px) {
+  .footer__images {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .footer__images {
+    height: 32rem;
+    width: 16rem;
+    overflow: hidden;
+    position: absolute;
+    top: -30px;
+    right: 62px;
+    clip: rect(auto, auto, 433px, auto);
+  }
+}

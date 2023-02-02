@@ -1,0 +1,7 @@
+.intro__buttons {
+  position: relative;
+}
+
+.intro__buttons .intro__input {
+  display: none;
+}

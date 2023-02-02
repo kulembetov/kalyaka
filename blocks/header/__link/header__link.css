@@ -1,35 +1,38 @@
 .header__link {
-  max-width: 240px;
   width: fit-content;
   background-color: #fff;
   font-weight: 600;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: #222;
+  text-align: center;
   text-decoration: none;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
-  cursor: pointer;
+  border: none;
   border-radius: 8px;
-  box-sizing: border-box;
+  outline: none;
+  transition: all 0.3s ease-in-out;
   padding: 15px 75px;
-  transition: .3s ease-in-out;
 }
 
 .header__link:hover {
-  opacity: .85;
+  opacity: 0.93;
 }
 
 @media screen and (max-width: 767px) {
   .header__link {
-    max-width: 260px;
     font-size: 12px;
+    line-height: 2;
     padding: 10px 96px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
   .header__link {
-    padding: 12px 75px;
+    font-size: 14px;
+    line-height: 1.71;
+    padding: 12px 80px;
   }
 }
