@@ -16,7 +16,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .footer__images {
-    height: 32rem;
+    height: 27rem;
     width: 16rem;
     overflow: hidden;
     position: absolute;
