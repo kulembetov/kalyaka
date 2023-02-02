@@ -15,7 +15,6 @@
     max-width: 250px;
     max-height: 502px;
     position: relative;
-    object-fit: cover;
     clip: rect(auto, auto, 391px, auto);
   }
 }
