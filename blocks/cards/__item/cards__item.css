@@ -14,7 +14,6 @@
   .cards__item {
     min-width: 300px;
     min-height: 284px;
-    max-height: 284px;
     gap: 12px;
     padding: 20px;
     transition: 0.3s ease-in-out;
@@ -25,7 +24,6 @@
   .cards__item {
     min-width: 349px;
     min-height: 284px;
-    max-height: 284px;
     gap: 12px;
     padding: 30px;
   }
