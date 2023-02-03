@@ -1,0 +1,9 @@
+@media screen and (max-width: 767px) {
+  .cards__button:nth-child(1):checked ~ .cards__list .cards__item {
+    transform: translate(0);
+  }
+
+  .cards__button:nth-child(2):checked ~ .cards__list .cards__item {
+    transform: translateX(-100%);
+  }
+}

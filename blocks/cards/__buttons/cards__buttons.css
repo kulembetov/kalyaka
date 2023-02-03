@@ -1,0 +1,7 @@
+.cards__buttons {
+  position: relative;
+}
+
+.cards__buttons .cards__input {
+  display: none;
+}

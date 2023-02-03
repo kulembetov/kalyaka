@@ -1,0 +1,16 @@
+.form__description {
+  max-width: 500px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  opacity: .6;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .form__description {
+    font-size: 15px;
+    line-height: 1.33;
+  }
+}
